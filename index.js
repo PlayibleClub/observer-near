@@ -52,6 +52,7 @@ function observer() {
             }
             else if (e.event.data[0].result == "failure"){
                 // TODO: In case we want to show notification on frontend the TX failed
+                // TODO: i invite you to use PUSHER.com to send websocket info from the backend to the frontend to get a realtime Dapp
                 console.error("Data failed to insert")
             }else {
                 console.error("Error result not found")
